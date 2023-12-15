@@ -5,6 +5,9 @@ return {
     opts = function(_, opts)
       opts.experimental.ghost_text = false
       opts.completion.completeopt = "menu,menuone,noselect"
+
+      local cmp = require("cmp")
+      opts.mapping["<CR>"] = cmp.mapping.confirm()
     end,
   },
 
