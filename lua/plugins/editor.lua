@@ -42,4 +42,11 @@ return {
     "RaafatTurki/hex.nvim",
     config = true,
   },
+
+  {
+    "vuki656/package-info.nvim",
+    dependencies = { "MunifTanjim/nui.nvim" },
+    ft = { "json" },
+    config = true,
+  },
 }
