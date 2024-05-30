@@ -8,6 +8,13 @@ return {
 
       local cmp = require("cmp")
       opts.mapping["<CR>"] = cmp.mapping.confirm()
+
+      cmp.setup.filetype({ "sql" }, {
+        sources = {
+          { name = "vim-dadbod-completion" },
+          { name = "buffer" },
+        },
+      })
     end,
   },
 
