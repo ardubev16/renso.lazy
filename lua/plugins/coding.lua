@@ -18,7 +18,6 @@ return {
     end,
   },
 
-  { "zbirenbaum/copilot-cmp", enabled = false },
   {
     "zbirenbaum/copilot.lua",
     event = "VeryLazy",
@@ -26,6 +25,9 @@ return {
       suggestion = {
         enabled = true,
         auto_trigger = false,
+        keymap = {
+          accept_line = "<M-L>",
+        },
       },
       filetypes = {
         ["*"] = true,
