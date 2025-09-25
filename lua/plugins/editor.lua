@@ -3,6 +3,7 @@ return {
     "nvim-neo-tree/neo-tree.nvim",
     opts = {
       filesystem = {
+        group_empty_dirs = true,
         filtered_items = {
           hide_dotfiles = false,
           hide_by_name = {
