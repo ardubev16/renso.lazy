@@ -7,8 +7,8 @@ local unmap = vim.keymap.del
 -- quit
 unmap("n", "<leader>qq")
 
-map("n", "<S-Right>", "<cmd>tabnext<cr>")
-map("n", "<S-Left>", "<cmd>tabprevious<cr>")
+map("n", "<S-Right>", "<cmd>bnext<cr>")
+map("n", "<S-Left>", "<cmd>bprevious<cr>")
 
 -- Move to window using the <ctrl> arrow keys
 -- NOTE: LazyVim uses <ctrl> arrow keys to resize windows
