@@ -13,4 +13,20 @@ return {
       require("pymple").setup()
     end,
   },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        ty = {
+          settings = {
+            ty = {
+              inlayHints = {
+                variableTypes = false,
+              },
+            },
+          },
+        },
+      },
+    },
+  },
 }

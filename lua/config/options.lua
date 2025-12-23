@@ -6,3 +6,5 @@ vim.opt.mouse = "nv"
 vim.opt.relativenumber = false
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
+
+vim.g.lazyvim_python_lsp = "ty"
