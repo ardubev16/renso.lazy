@@ -1,4 +1,25 @@
 return {
+  -- {
+  --   "folke/snacks.nvim",
+  --   opts = {
+  --     picker = {
+  --       sources = {
+  --         explorer = {
+  --           auto_close = true,
+  --         },
+  --       },
+  --       win = {
+  --         input = {
+  --           keys = {
+  --             ["u"] = {
+  --               "explorer_up",
+  --             },
+  --           },
+  --         },
+  --       },
+  --     },
+  --   },
+  -- },
   {
     "nvim-neo-tree/neo-tree.nvim",
     opts = {
