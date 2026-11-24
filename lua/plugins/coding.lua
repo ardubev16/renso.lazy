@@ -12,6 +12,8 @@ return {
           auto_show_delay_ms = 0,
         },
       },
+      -- HACK: Workaround for https://github.com/saghen/blink.cmp/issues/2155
+      fuzzy = { implementation = "lua" },
     },
   },
 
